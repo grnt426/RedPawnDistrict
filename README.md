@@ -40,3 +40,4 @@ Pin Setup
 * 13 for big button
 * 12 for S mode slide switch
 * 11 for D mode slide switch
+* 6 for B mode slide switch
