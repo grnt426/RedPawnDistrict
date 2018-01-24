@@ -3,6 +3,18 @@ The Red Pawn District
 
 Description coming soon ;)
 
+SD Card Filenames
+==================
+
+Audio clips are chosen randomly to play each time the big button is pressed. Depending on which mode is selected,
+it will pick between the two different sets of clips. S mode clips are all of the form "s_X.wav", where X is a positive
+integer. D mode clips are all of the form "d_X.wav".
+
+s_sel.wav, d_sel.wav, sd_sel.wav, start.wav are also required. error.wav is included only as a backup, and isn't
+reasonably expected to ever play during a session.
+
+Note: ALL files should be within the highest directory level, with no subfolders. 
+
 Dependencies
 ====================
 An Arduino IDE is recommended.
