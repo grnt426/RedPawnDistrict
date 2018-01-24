@@ -111,11 +111,13 @@ void checkSwitches(bool init) {
   if(digitalRead(S_MODE_PIN) && !sMode) {
     Serial.println("S mode selected!");
     sMode = true;
+    dMode = false;
     changed = true;
   }
   else if(digitalRead(D_MODE_PIN) && !dMode) {
     Serial.println("D mode selected!");
     dMode = true;
+    sMode = false;
     changed = true;
   }
 
